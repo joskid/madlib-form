@@ -1,9 +1,7 @@
-import React from 'react'
+import MadlibQuestions from './MadlibQuestions';
+import MadlibQuestion from './MadlibQuestion';
 
-export default React.createClass({
-  render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-    </div>
-  }
-})
+export {
+  MadlibQuestions,
+  MadlibQuestion
+};
